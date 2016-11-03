@@ -9,6 +9,7 @@ public class JenkinsTest {
     @Test
     public void jenkinsTest() {
         Assert.assertTrue(true);
+        Assert.assertFalse(false);
     }
 
 
