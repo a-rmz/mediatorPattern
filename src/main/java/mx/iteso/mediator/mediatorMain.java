@@ -21,7 +21,7 @@ public class mediatorMain {
         tower.registerAircraft(airbus);
         tower.registerAircraft(airforce);
 
-        sendMessage("I'm leaving. Don't arrive yet.");
+        airbus.sendMessage("I'm leaving. Don't arrive yet.");
     }
 
 }
