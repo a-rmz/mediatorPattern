@@ -4,17 +4,16 @@ import mx.iteso.mediator.commandCenter.Mediator;
 import mx.iteso.mediator.aircrafts.Aircraft;
 
 /**
- * Created by a-rmz on 11/10/16.
+ * Created by fernando on 10/11/16.
  */
-public class Airplane extends Aircraft {
+public class Helicopter extends Aircraft {
 
-    public Airplane(Mediator controlTower, String name) {
+    public Helicopter(Mediator controlTower, String name) {
         super(controlTower);
         this.name = name;
     }
 
     public void receiveMessage(String message) {
-        System.out.println(this.getName() + "Airplane receive: " + message);
+        System.out.println(this.getName() + "Helicopter receive: " + message);
     }
-
 }

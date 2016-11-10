@@ -13,15 +13,15 @@ public class mediatorMain {
     public static void main(String[] args) {
         Mediator tower = new ControlTower();
 
-        Aircraft boeing = new Airplane(tower, "Boeing 747");
-        Aircraft airbus = new Airplane(tower, "Airbus A380");
-        Aircraft airforce = new Airplane(tower, "AirForce 1");
+        Aircraft airplane = new Airplane(tower, "Plane 257");
+        Aircraft helicopter = new Airplane(tower, "Helicopter A380");
+        Aircraft jet = new Airplane(tower, "Jet F1");
 
-        tower.registerAircraft(boeing);
-        tower.registerAircraft(airbus);
-        tower.registerAircraft(airforce);
+        tower.registerAircraft(airplane);
+        tower.registerAircraft(helicopter);
+        tower.registerAircraft(jet);
 
-        boeing.sendMessage("I'm leaving. Don't arrive yet.");
+        airplane.sendMessage("I'm leaving. Don't arrive yet.");
     }
 
 }
