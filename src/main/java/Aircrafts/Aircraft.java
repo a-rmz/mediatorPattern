@@ -7,7 +7,7 @@ package Aircrafts;
 // Colleague interface
 public interface Aircraft {
 
-    public void receibeMessage();
+    public void receiveMessage();
     public void sendMessage(String message);
 
 }
