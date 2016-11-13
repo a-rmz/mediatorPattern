@@ -24,6 +24,6 @@ public abstract class Aircraft {
         return this.name;
     }
 
-    public abstract void receiveMessage(String message);
+    public abstract String receiveMessage(String message);
 
 }

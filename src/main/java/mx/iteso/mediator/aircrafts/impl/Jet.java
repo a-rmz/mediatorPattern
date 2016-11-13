@@ -13,8 +13,8 @@ public class Jet extends Aircraft {
         this.name = name;
     }
 
-    public void receiveMessage(String message) {
-        System.out.println(this.getName() + "Jet receive: " + message);
+    public String receiveMessage(String message) {
+        return this.getName() + "receive: " + message;
     }
 
 }
