@@ -3,6 +3,7 @@ Example of the mediator pattern
 
 For the presentation, click [here](https://github.com/a-rmz/mediatorPattern/blob/master/Mediator%20Pattern.pdf).
 
+
 For further reading:
 * [https://dzone.com/articles/design-patterns-mediator](https://dzone.com/articles/design-patterns-mediator)
 * [https://sourcemaking.com/design_patterns/mediator](https://sourcemaking.com/design_patterns/mediator)
