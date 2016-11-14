@@ -13,7 +13,7 @@ public class Airplane extends Aircraft {
         this.name = name;
     }
 
-    public String receiveMessage(String message) {
+    String (String message) {
         return this.getName() + "receive: " + message;
     }
 
